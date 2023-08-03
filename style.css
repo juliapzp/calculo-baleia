@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #16a5dd;
+  }
+  
+  #baleia-container {
+    margin: 50px auto;
+    width: 400px;
+    text-align: center;
+  }
+  
+  #resultado {
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.2em;
+    color: #16a5dd;
+  }
+  
+  body {
+    background-color: #d3d3d3;
+  }
+  
+  #baleia-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    color: #16a5dd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    background-color: #16a5dd;
+  }
