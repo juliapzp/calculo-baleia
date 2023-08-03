@@ -13,6 +13,28 @@
   </div>
   <div id="resultado"></div>
   <script src="baleia.js"></script>
+  <h1>Pseudocodigo:</h1>
+  <pre>algoritmo "Algoritmo42"
+var 
+expectativavida: inteiro
+mediafilhotes, totalfilhotes: real
+inicio
+expectativavida <- 200
+totalfilhotes <- expectativavida / 4
+mediafilhotes <- totalfilhotes / (expectativavida / 10)
+escreval("Total de filhotes ao longo da vida: ", totalfilhotes)
+escreval("Média de filhotes por década: ", mediafilhotes)
+fimalgoritmo
+  </pre>
+  <h1>Codigo em JS:</h1>
+  <pre>var expectativavida = 200;
+var totalfilhotes = expectativavida / 4;
+var mediafilhotes = totalfilhotes / (expectativavida / 10);
+
+var resultado = document.getElementById("resultado");
+resultado.innerHTML = "<p>Total de filhotes ao longo da vida: " + totalfilhotes + "</p>";
+resultado.innerHTML += "<p>Media de filhotes por decada: " + mediafilhotes + "</p>";
+  </pre>
 </body>
 
 </html>
